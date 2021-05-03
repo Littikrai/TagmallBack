@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 import "./mongoose-connect";
 import schema from "./graphql";
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 const pathG = "/graphql";
 const app = express();
 
