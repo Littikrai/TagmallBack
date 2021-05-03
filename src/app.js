@@ -1,5 +1,5 @@
-const express = require("express");
-const { ApolloServer, gql } = require("apollo-server-express");
+const express = require("./express");
+const { ApolloServer, gql } = require("./apollo-server-express");
 import jwt from "express-jwt";
 import cookieParser from "cookie-parser";
 import cors from "cors";
